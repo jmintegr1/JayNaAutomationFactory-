@@ -6,7 +6,7 @@ public class StringConcatenation {
     public static void main (String[] args){   //+ is concatenation operator, so STRING CONCATENATION
 
         int a = 100;    //Println -- is used to print on the console with a new line so it will end after this
-        int b = 200;    //Print -- is used to print on the console
+        int b = 200;    //Print -- is used JUST to print on the console
 
         String x = "Hello";
         String y = "World";
@@ -16,13 +16,13 @@ public class StringConcatenation {
 
         System.out.println(a + b); //Here we add
 
-        System.out.println(x + y);
+        System.out.println(x + y);  //Text put side by side
 
-        System.out.println(a + b + x + y);
+        System.out.println(a + b + x + y); //since Numbers FIRST, it gets added then text can only be put side by side
 
-        System.out.println(x+y+a+b);  //When adding string w/integer & writing string first, so x+y+a become new string then add to b then again become a new string.  The answer is HelloWorld100200 left to right, here we don't add, just print side by side
+        System.out.println(x+y+a+b);  //When String first, so x+y+a BECOME new string then add to b that too become a new string.  The answer is HelloWorld100200 left to right, here we don't add, just print side by side
 
-        System.out.println(x+y+(a+b)); //Here it's string first then we add what is inside the parenthesis (a+b)) like we did in math
+        System.out.println(x+y+(a+b)); //Here it's string first then we add what is inside the parenthesis (a+b)) like we DO in math
 
         System.out.println(a+b+x+y+a+x+b+y);
 
@@ -49,7 +49,7 @@ public class StringConcatenation {
 
         System.out.print("I am beginning to love automation so  I say: "); //and ends when it prints Hello Testing because the last line has println
 
-        System.out.println("Hellooooooo Testingggggggggg");
+        System.out.println("Hellooooooo Automation Testingggggggggg");
 
     }
 }

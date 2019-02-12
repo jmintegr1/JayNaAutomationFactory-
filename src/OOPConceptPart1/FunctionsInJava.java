@@ -4,12 +4,12 @@ public class FunctionsInJava {
 
     //Main Method is the starting point of execution
 
-    public static void main(String[] args) {  //Main method is void because it never returns a value. We never write a return statement inside main
+    public static void main(String[] args) {  //Main method is void because it never returns a value. We NEVER write a return statement inside main
 
         FunctionsInJava obj = new FunctionsInJava();
         //One object will be created, obj is the reference variable, referring to this object
-        //after creating the object, the copy of all NON-static methods will be given to this object
-        //NON-static method because object CANNOT HOLD STATIC METHOD so Main is not giving to the obj
+        //after creating the object, the copy of all NON-static methods will be ASSIGNED to this object
+        //NON-static methods are assigned because object CANNOT HOLD STATIC METHOD so Main is not giving to the obj
 
         obj.testRun();
 
