@@ -1,6 +1,6 @@
 package OOPConceptPart2;
 
-public class Vechile {
+public class Vehicle {
 
     public void engine(){
 

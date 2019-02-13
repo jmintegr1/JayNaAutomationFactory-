@@ -1,7 +1,7 @@
 package OOPConceptPart2;
 
 
-public class Car extends Vechile {
+public class Car extends Vehicle {
 
     public void start() {
 
