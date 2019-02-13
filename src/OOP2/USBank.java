@@ -1,8 +1,8 @@
-package OOP2;
+package OOP2;              //There is no Main Method in Interface
 
-public interface USBank {
+public interface USBank { // Interface is STATIC in Nature
+
     int min_balance = 100;
-
 
     public void debit();
 
@@ -16,16 +16,15 @@ public interface USBank {
     public void trading();
 
 
-
-    //Interface has no method body, only method declaration, only method prototype
+    //Interface has NO method BODY, they are EMPTY so only method declaration, only method prototype
+    //Interface we only declare the variables, variables are default static in nature
+    //Variable value will not be changed, it is FINAL/constant in nature
     //Cannot create the object of interface
-    //No static methods allowed
+    //Static Methods NOR Main Methods are allowed in INTERFACE
     //But interface variables are static in nature by default
-    //100% Abstrction -- 100% abstraction means you are just declaring the properties but 100% abstraction are happening
-    //in the child class, in the ICICI class so this called abstraction feature
-    //
-
-
+    //CANNOT create an Object in Interface so 100% Abstrction -- 100% abstraction means we CANNOT INSTANTIATE and an object,
+    //so just declaring the properties so 100% abstraction are happening
+    //In the child class, in the ICICI class so this called abstraction feature
 
 
 }

@@ -3,9 +3,10 @@ package OOP2;     //When you start a project FIRST DRAW OUT A DETAIL DIAGRAM (TH
 public abstract class Animal {
 
     public final void eat(){
+
         System.out.println("Animal -- eat");
     }
 }
-   //Abstraction we can do from 0-100%. 0 means no abstract method and 100% means all the methods are abstract in nature
+   //Abstraction we can do from 0-100%. 0 means NO abstract method and 100% means ALL the methods are abstract in nature
    //Partial Abstract -- means some methods are abstract and some are not
    //Interface means 100% Abstraction . Abstraction -- is the process of hiding the implementation details

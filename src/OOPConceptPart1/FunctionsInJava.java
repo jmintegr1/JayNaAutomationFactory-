@@ -51,7 +51,6 @@ public class FunctionsInJava {
         return s;
     }
 
-
     //return tuype -->int
     //x,y --> input parameters/arguments
     public int division(int x, int y) {    //You can only have int as return type as it gives you result of integer
