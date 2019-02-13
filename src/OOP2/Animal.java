@@ -1,4 +1,4 @@
-package OOP2;
+package OOP2;     //When you start a project FIRST DRAW OUT A DETAIL DIAGRAM (THE PLAN) THEN START YOUR CODING ACCORDINGLY. THIS IS BEST PRACTICE!!!
 
 public abstract class Animal {
 

@@ -1,3 +1,4 @@
+/*
 package OOP2;
 
 public class Dog extends Animal {
@@ -9,3 +10,4 @@ public class Dog extends Animal {
         d.eat();
     }
 }
+*/
