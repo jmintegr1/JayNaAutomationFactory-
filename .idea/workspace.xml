@@ -32,8 +32,6 @@
       <change afterPath="$PROJECT_DIR$/../HumanOOP/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HumanOOP/src/HomoSapien/Earth.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ILovePain" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testCasesFor3Fs/FinalConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testPackage4finalKeyword/ParentClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../KingArmy/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../KingArmy/src/ArchType/King.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../KingArmy/src/ArchType/Sage.java" afterDir="false" />
@@ -69,34 +67,8 @@
       <change afterPath="$PROJECT_DIR$/../untitled/src/Earth5.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/src/Human5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/ConstructorConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/ConstructorConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/IfElseConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/IfElseConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/IncrementAndDecerementOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/IncrementAndDecerementOperator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/LocalVsGlobalVariables.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/LocalVsGlobalVariables.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/LoopsConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/LoopsConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/StringConcept.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOP2/ICICIBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOP2/ICICIBank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart1/CallByValueAndCallByReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart1/CallByValueAndCallByReference.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart2/BMW.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart2/BMW.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/testCases/FinalConcept.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/testCases/FinalizeConcept.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/testCases/FinallyConcept.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/testPackage/ChildClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/testPackage/ParentClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/CarConstructorConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/CarConstructorConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/ConstructorConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/ConstructorConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/IfElseConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/IfElseConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/IncrementAndDecerementOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/IncrementAndDecerementOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/LocalVsGlobalVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/LocalVsGlobalVariables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/LoopsConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/LoopsConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/StringConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/StringConceptWhyStringIS_Immutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPConceptPart1/CallByValueAndCallByReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPConceptPart1/CallByValueAndCallByReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPConceptPart1/MethodOverLoading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPConceptPart1/MethodOverLoading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testCases/FinalConcept.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testCases/FinalizeConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testCasesFor3Fs/FinalizeConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testCases/FinallyConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testCasesFor3Fs/FinallyConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testPackage/ChildClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testPackage4finalKeyword/ChildClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testPackage/ParentClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPConceptPart1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPConceptPart1/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOPConceptPart1/FunctionsInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPConceptPart1/FunctionsInJava.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,33 +79,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/OOPConceptPart1/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/testCasesFor3Fs/FinalizeConcept.java">
+        <entry file="file://$PROJECT_DIR$/src/OOPConceptPart1/FunctionsInJava.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#84#85#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testCasesFor3Fs/FinallyConcept.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/testCasesFor3Fs/FinalConcept.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="102">
+              <caret line="6" column="108" selection-start-line="6" selection-start-column="108" selection-end-line="6" selection-end-column="108" />
             </state>
           </provider>
         </entry>
@@ -168,7 +127,6 @@
         <option value="$PROJECT_DIR$/src/JavaBasics/Animal.java" />
         <option value="$PROJECT_DIR$/src/OOP2/Dog.java" />
         <option value="$PROJECT_DIR$/src/OOP2/Animal.java" />
-        <option value="$PROJECT_DIR$/src/OOPConceptPart1/FunctionsInJava.java" />
         <option value="$PROJECT_DIR$/src/OOPConceptPart2/Car.java" />
         <option value="$PROJECT_DIR$/src/OOPConceptPart2/TestCar.java" />
         <option value="$PROJECT_DIR$/src/OOP2/TestBank.java" />
@@ -193,6 +151,8 @@
         <option value="$PROJECT_DIR$/src/testCasesFor3Fs/FinallyConcept.java" />
         <option value="$PROJECT_DIR$/src/testCasesFor3Fs/FinalConcept.java" />
         <option value="$PROJECT_DIR$/src/testCasesFor3Fs/FinalizeConcept.java" />
+        <option value="$PROJECT_DIR$/src/OOPConceptPart1/Car.java" />
+        <option value="$PROJECT_DIR$/src/OOPConceptPart1/FunctionsInJava.java" />
       </list>
     </option>
   </component>
@@ -284,7 +244,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550255427555" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550260934201" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -304,26 +264,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FinalizeConcept">
-    <configuration name="CallByValueAndCallByReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOPConceptPart1.CallByValueAndCallByReference" />
+  <component name="RunManager" selected="Application.FunctionsInJava">
+    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPConceptPart1.Car" />
       <module name="JayNaAutomationFactory" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="OOPConceptPart1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarConstructorConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaBasics.CarConstructorConcept" />
-      <module name="JayNaAutomationFactory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaBasics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -370,13 +317,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FunctionsInJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOPConceptPart1.FunctionsInJava" />
+      <module name="JayNaAutomationFactory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOPConceptPart1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FunctionsInJava" />
+        <item itemvalue="Application.Car" />
         <item itemvalue="Application.FinalizeConcept" />
         <item itemvalue="Application.FinallyConcept" />
         <item itemvalue="Application.FinalConcept" />
-        <item itemvalue="Application.CallByValueAndCallByReference" />
-        <item itemvalue="Application.CarConstructorConcept" />
       </list>
     </recent_temporary>
   </component>
@@ -411,7 +371,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.21306472" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.21306472" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3290993" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.23672055" />
@@ -419,7 +379,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3290993" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3290993" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.16628176" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.27944574" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.21247113" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -704,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOPConceptPart1/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaBasics/StringConceptWhyStringIS_Immutable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -722,13 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOPConceptPart1/FunctionsInJava.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -761,13 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testCasesFor3Fs/FinallyConcept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testCasesFor3Fs/FinalizeConcept.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -776,6 +715,27 @@
             <element signature="e#84#85#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testCasesFor3Fs/FinallyConcept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOPConceptPart1/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOPConceptPart1/FunctionsInJava.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="108" selection-start-line="6" selection-start-column="108" selection-end-line="6" selection-end-column="108" />
         </state>
       </provider>
     </entry>

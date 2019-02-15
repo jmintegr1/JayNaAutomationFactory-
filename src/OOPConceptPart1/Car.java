@@ -23,6 +23,7 @@ public class Car {
         b.wheel = 4;
 
         c.model = 2013;
+        c.wheel = 4;
 
 
         System.out.println("before assigning the references");
@@ -45,9 +46,8 @@ public class Car {
 
         a.model =10;
         System.out.println(a.model); //Output will be 10
-        System.out.println(b.model);
         c.model =20;
-        System.out.println(a.model); //Now output will be 20 for a because c was changed, it changed a as well in the object after shit
+        System.out.println(a.model); //Now output will be 20 for a because c was changed, it changed a as well in the object after shfit
         System.out.println(c.model);
 
 
