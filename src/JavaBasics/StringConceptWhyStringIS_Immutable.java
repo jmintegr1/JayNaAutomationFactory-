@@ -1,6 +1,6 @@
 package JavaBasics;
 
-public class StringConcept {
+public class StringConceptWhyStringIS_Immutable {
 
     public static void main(String[] args) {
         String s1 = "Java";

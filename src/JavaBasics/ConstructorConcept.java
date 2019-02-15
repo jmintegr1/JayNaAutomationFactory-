@@ -1,6 +1,6 @@
 package JavaBasics;
 
-public class ConstructorConcept {       //What is the difference between constructor and functions/method? Ans: Constructor will never return a value
+public class ConstructorConcept {       //What is the difference between constructor and functions/method? Ans: Constructor will NEVER return a value where as Method MAY return a value
 
     //Class variables, INSTANCE or Global variables
 
@@ -16,32 +16,29 @@ public class ConstructorConcept {       //What is the difference between constru
         System.out.println(i);
     }
 
-    //IQ: Can you over load constructor? Yes constructor can be over loaded
+    //IQ: Can you over load constructor? Yes constructor can be over loaded, by having multiple arguments in parameter
     public ConstructorConcept(int i, int j){
         System.out.println("2 parameter constructors"); //2 parameter constructors , so total of 3 different constructors therefore constructors are over loaded here
         System.out.println(i  + " " + j);
     }
 
-    public ConstructorConcept(String name, int age) { //Until you fill in parameters here, it will conflict with 1st constructor
+    public ConstructorConcept(String name, int age) { //Until you fill in parameters here, it will conflict with 1st constructor cuz they are same method name until different signatures
         this.name = name;  // name and age here are local variable, above variables below class name are called INSTANCE /Global /Class variables
-        this.age = age; //***Always remember this.classVariable = localVariable;!!!!  So 1st is Globar variable after = Local variable just like from from top down
+        this.age = age; //***Always remember this.classVariable = localVariable;!!!!  So 1st is Global variable after = is Local variable just like from top variable is Global then down
 
         /*name = name1; //If you want to initialize directly, either way you have to differentiate instance variable from local variables
         age = age1;*/   //either by keyword "this" like above or change the variable by adding 1 in parameter: public ConstructorConcept(String name1, int age1)
     }
 
-
-
     public static void main(String[] args) {
-
 
         ConstructorConcept obj = new ConstructorConcept();
         ConstructorConcept obj1 = new ConstructorConcept(10); //Reason it calls constructor with i is because that's the only one with 1 parameter w/ (int i)
         ConstructorConcept obj2 = new ConstructorConcept(10, 20);
         ConstructorConcept obj3 = new ConstructorConcept("Tom",  25);
 
-        System.out.println(obj3.name + " " + obj3.age); //This way we can call both of them side by side with string concatenation
-        //System.out.println(obj3.name); //Here it is one at a time
+        System.out.println(obj3.name + " is " + obj3.age); //This way we can call both of them side by side with string concatenation
+        System.out.println(obj3.name); //Here calling just name
         System.out.println(obj3.age);
 
     }

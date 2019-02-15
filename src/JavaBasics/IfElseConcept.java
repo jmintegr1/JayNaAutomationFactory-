@@ -20,30 +20,32 @@ public class IfElseConcept {
         int c = 40;
         int d = 50;
 
-        if (c == d) {  // = just equal to is assignment operator, == is comparision operator
+        if (c == d) {  // = just 1 equal is an Assignment operator, ==  2 equals is Comparision Operator
             System.out.println("c and d are equal");
         } else {
             System.out.println("c and d are not equal");
         }
 
 
-        //write a logic to find out the highest number
+
+        //Write a logic to find out the highest number?
         int a1 = 400;
         int b1 = 500;
         int c1 = 300;
 
 
-        //nested if-else
+        //Nested if-else (Means = if, else, else)
 
         if (a1 > b1 & a1 > c1){  //True & True = True,  False & False = False, False & True = False   |    & = And Operator
             System.out.println("a1 is the truithest compare to the other two");
         }
-        else if(b1>c1){
+        else if(b1<a1){
             System.out.println("b1 is the truithest compare to c1");
         }
         else {
             System.out.println("c1 is the truithest compare to other two");
         }
+
 
     }    //Write a logic to find out the highest number of 3 variables
 }

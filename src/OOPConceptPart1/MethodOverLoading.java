@@ -15,7 +15,7 @@ public class MethodOverLoading {
 
     }
 
-    public static void main(int p, int h) { //We can over load MAIN 2 input parameters, one identical one different
+    public static void main(int p, int h) { //We can over load MAIN w/ 2 input parameters, one identical one different
 
     }
 
