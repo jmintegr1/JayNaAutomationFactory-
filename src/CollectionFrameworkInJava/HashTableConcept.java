@@ -9,12 +9,12 @@ public class HashTableConcept {
     public static void main(String[] args) {
 
         //It is similar to HashMap but HashTable is synchronized
-        //It stores the value on the basis of key-value, NOT index, that is in ArrayList
+        //It stores the value on the basis of key &  value, NOT index, that is in ArrayList
         //*******Key--> Object -- HashCode --> Value******
 
-        Hashtable h1 = new Hashtable(); //put is a method to access through object reference
-        h1.put("A", "Tom");      //Key 1st, Value 2nd
-        h1.put("B", "Nathan");
+        Hashtable h1 = new Hashtable();
+        h1.put("A", "Tom");      //put is a method to access through object reference
+        h1.put("B", "Nathan");  //Key 1st, Value 2nd
         h1.put("C", "Java");
 
         System.out.println(h1.size());
@@ -22,18 +22,18 @@ public class HashTableConcept {
         h1.put(1, 100);
         h1.put(2, 200);
 
-        System.out.println(h1.size());  //Here getting size of
+        System.out.println(h1.size());  //Here getting the size of
 
-        System.out.println(h1.get(1));  //Now want to "get" the "value" of specific key
+        System.out.println(h1.get(2));  //Now want to "get" the "value" of specific key
 
         System.out.println(h1.get("C"));
 
         System.out.println(h1.get("A"));
 
-        h1.put(3, "Jewell"); //Here we have did different combo, instead of letter as key we put number 3 as key
+        h1.put(3, "Jewell"); //Here we have did opposite combo, instead of letter as key we put number 3 as key & value as Jewell
 
 
-     /*   //But you if want to restrict to Key & Value, it should be only integer for both then do:
+     /*   //But if you want to restrict to Key & Value, it should be only integer for both then do:
         Hashtable<Integer, Integer> h2 = new Hashtable<Integer, Integer>();
         h2.put(1, 100);
         //h1.put("A", 200); //This will not work because we restricted it with 2 integer

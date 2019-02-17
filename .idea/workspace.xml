@@ -67,8 +67,9 @@
       <change afterPath="$PROJECT_DIR$/../untitled/src/Earth5.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/src/Human5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPConceptPart1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPConceptPart1/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPConceptPart1/FunctionsInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPConceptPart1/FunctionsInJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionFrameworkInJava/ArrayListConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFrameworkInJava/ArrayListConcept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionFrameworkInJava/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFrameworkInJava/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionFrameworkInJava/HashTableConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFrameworkInJava/HashTableConcept.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,19 +81,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OOPConceptPart1/Car.java">
+        <entry file="file://$PROJECT_DIR$/src/CollectionFrameworkInJava/ArrayListConcept.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="1155">
+              <caret line="78" column="11" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
+              <folding>
+                <element signature="e#2332#2341#0" expanded="true" />
+                <element signature="e#2651#2660#0" expanded="true" />
+                <element signature="e#3596#3606#0" expanded="true" />
+                <element signature="e#4497#4505#0" expanded="true" />
+                <element signature="e#5703#5711#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/OOPConceptPart1/FunctionsInJava.java">
+        <entry file="file://$PROJECT_DIR$/src/CollectionFrameworkInJava/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="108" selection-start-line="6" selection-start-column="108" selection-end-line="6" selection-end-column="108" />
+            <state relative-caret-position="30">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CollectionFrameworkInJava/HashTableConcept.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,6 +173,9 @@
         <option value="$PROJECT_DIR$/src/testCasesFor3Fs/FinalizeConcept.java" />
         <option value="$PROJECT_DIR$/src/OOPConceptPart1/Car.java" />
         <option value="$PROJECT_DIR$/src/OOPConceptPart1/FunctionsInJava.java" />
+        <option value="$PROJECT_DIR$/src/CollectionFrameworkInJava/HashTableConcept.java" />
+        <option value="$PROJECT_DIR$/src/CollectionFrameworkInJava/ArrayListConcept.java" />
+        <option value="$PROJECT_DIR$/src/CollectionFrameworkInJava/Employee.java" />
       </list>
     </option>
   </component>
@@ -244,7 +267,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550260934201" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550372257800" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -264,7 +287,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FunctionsInJava">
+  <component name="RunManager" selected="Application.ArrayListConcept">
+    <configuration name="ArrayListConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionFrameworkInJava.ArrayListConcept" />
+      <module name="JayNaAutomationFactory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CollectionFrameworkInJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOPConceptPart1.Car" />
       <module name="JayNaAutomationFactory" />
@@ -278,34 +314,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testCasesFor3Fs.FinalConcept" />
-      <module name="JayNaAutomationFactory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testCasesFor3Fs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FinalizeConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testCasesFor3Fs.FinalizeConcept" />
-      <module name="JayNaAutomationFactory" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testCasesFor3Fs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinallyConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testCasesFor3Fs.FinallyConcept" />
       <module name="JayNaAutomationFactory" />
       <extension name="coverage">
         <pattern>
@@ -330,13 +340,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HashTableConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionFrameworkInJava.HashTableConcept" />
+      <module name="JayNaAutomationFactory" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CollectionFrameworkInJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListConcept" />
+        <item itemvalue="Application.HashTableConcept" />
         <item itemvalue="Application.FunctionsInJava" />
         <item itemvalue="Application.Car" />
         <item itemvalue="Application.FinalizeConcept" />
-        <item itemvalue="Application.FinallyConcept" />
-        <item itemvalue="Application.FinalConcept" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +402,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3290993" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3290993" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.27944574" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.24711317" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.21247113" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -417,13 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CollectionFrameworkInJava/ArrayListConcept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="68" lean-forward="true" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Intellij_Selenium/RunFirefox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -435,20 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CollectionFrameworkInJava/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CollectionFrameworkInJava/HashTableConcept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-541">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -678,28 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testPackage4finalKeyword/ChildClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testPackage4finalKeyword/ParentClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding>
-            <element signature="e#222#223#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/testCasesFor3Fs/FinalConcept.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -732,10 +712,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/testPackage4finalKeyword/ParentClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testPackage4finalKeyword/ChildClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/OOPConceptPart1/FunctionsInJava.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="108" selection-start-line="6" selection-start-column="108" selection-end-line="6" selection-end-column="108" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionFrameworkInJava/HashTableConcept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionFrameworkInJava/ArrayListConcept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="78" column="11" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
+          <folding>
+            <element signature="e#2332#2341#0" expanded="true" />
+            <element signature="e#2651#2660#0" expanded="true" />
+            <element signature="e#3596#3606#0" expanded="true" />
+            <element signature="e#4497#4505#0" expanded="true" />
+            <element signature="e#5703#5711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CollectionFrameworkInJava/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>
