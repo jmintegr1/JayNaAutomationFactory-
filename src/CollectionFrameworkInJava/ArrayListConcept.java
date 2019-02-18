@@ -90,16 +90,19 @@ public class ArrayListConcept {
         ar5.add(e2);
         ar5.add(e3);
 
-         //Iterator to traverse the values:
+         //Iterator to traverse the values:     |   Iterator does NOT work on basis of index so use for loop because they are stored on basis of Object
         Iterator<Employee> it = ar5.iterator();  //Use Iterator W/help of WHILE Loop for above Employees ArrayList to traverse the value & print them
-        while(it.hasNext()){    //HAS METHOD
-            Employee emp = it.next();   //NEXT METHOD
-            System.out.println(emp.name);
+        while(it.hasNext()){      //HAS Next Method Creates the Iterator selection and CHECKS if the first value in the Array box is available here or NOT so hasNext will POINTS to first value
+            Employee emp = it.next();   //NEXT Method will: "Returns the next element in the Iteration" from the vertical box from above and so on... since the first value is E1 (employee type)
+            System.out.println(emp.name); //so we STORE it inside employee type reference variable here by making Employee emp =
             System.out.println(emp.age);
             System.out.println(emp.dept);
         }
-            //***IQ: How to store the specific user defined class object in a particular ArrayList?
+            //****IQ: How to store the specific user defined class object in a particular ArrayList?
 
+          //In the User Defined Class in "Employee" class.. create constructor with these 3 variables then back in
+         // ArrayListConcept to store the values by creating ArrayList Object then with the help of Iterator we print all the values & we have to Iterate to traverse all the
+        // value from these 3 objects
 
 
         System.out.println("**************");

@@ -10,7 +10,7 @@ public class LinkedListConcept {
 
         LinkedList<String> ll = new LinkedList<String>();   // IQ: Different ways to print values of LinkedList?
 
-        //add:
+        //.add method to add string
         ll.add("test");
         ll.add("qtp");
         ll.add("selenium");
@@ -19,35 +19,38 @@ public class LinkedListConcept {
 
         //print:
         System.out.println("content of linkedlist are:" + ll);
-        //addfirst:
-        ll.addFirst("JewellNaveen");
-        //addlast:
+
+        ll.addFirst("Jewell");  //addfirst method will put Jewell in the 1st of the chain in 0 array
+
         ll.addLast("Automation");
-        System.out.println("content of linkedlist are:" + ll);
+
+        System.out.println("content of Linkedlist are:" + ll);  //Now we'll get a print out of Jewell 1st and the Singly LinkedList of the above strings then Automation at the end
 
 
-        //get
-        System.out.println(ll.get(0));
+        //get Method
+        System.out.println(ll.get(0));   //Get 1st value = Jewell
         System.out.println(ll.get(3));
         System.out.println(ll.get(5));
 
-        //set: this is how we insert, very simple
-        ll.set(0, "Shams");
+
+        ll.set(0, "Shams");            //set: this is how we insert (Insertion), so before 0 was Jewell but now it is Shams
         System.out.println(ll.get(0));
 
-        //remove first & last element
         ll.removeFirst();
         ll.removeLast();
+        System.out.println("content of Linkedlist:" + ll);          //remove first & last element, now Jewell and Automation is taken off
+
+
+        ll.remove(2);   //Now removing on basis of INDEX
         System.out.println("content of Linkedlist:" + ll);
 
-        ll.remove(2);
-        System.out.println("content of Linkedlist:" + ll);
+
+        //How to print (ITERATE) all the values of LinkedList?
+
+        //Ans: 4 ways: 1) Using for loop 2) Advance for Loop 3) Iterator 4) While Loop
 
 
-        //How to print all the values of LinkedList:
-        //Using for loop
-
-        System.out.println("************using for loop to print values of LinkedList");
+        System.out.println("*********** Using for loop to print values of LinkedList");
         for(int n=0; n<ll.size(); n++){
             System.out.println(ll.get(n));
         }
@@ -55,26 +58,26 @@ public class LinkedListConcept {
 
         //Using advance for loop   //This is also called for each loop
 
-        System.out.println("******Using advance for loop");
-        for(String str: ll){    //str is string of all the LinkedList object, what are the string available in this particular ll,
-            System.out.println(str);    //please iterate and print one by one
+        System.out.println("****** Using Advance for loop");
+        for(String str: ll){    //STR is stands for String of all the LinkedList object, what are the string available in this particular ll object..
+            System.out.println(str);    //and please iterate and print one by one
         }
 
 
-        //iterator
-        System.out.println("********* using iterator");
-        Iterator<String> it = ll.iterator();
-        while(it.hasNext()){
-            System.out.println(it.next());
-        }
+          //iterator
+        System.out.println("********* Using Iterator");
+        Iterator<String> it = ll.iterator();   //Start with putting Iterator in ll object by ll. (dot) and you'll selection window for iterator(), then this iterator() will return
+        while(it.hasNext()){                  //iterator reference. So store in Iterator <-reference-> by putting = sign and placing Iterator on the other side of it, since Reference
+            System.out.println(it.next());   //is String put String inside of Iterator, & import from Java.util
+        }                                   //Finish it with While loop
 
 
-        //while loop
-        System.out.println("********* using while loop");
+       //while loop                                          //***IQ: What are the different ways to print the values of LinkedList?
+        System.out.println("********* Using while loop");
 
         int num=0;
         while(ll.size()>num){
-            System.out.println(ll.get(num));
+            System.out.println(ll.get(num));  //pick get(int index)
             num++;
 
         }
