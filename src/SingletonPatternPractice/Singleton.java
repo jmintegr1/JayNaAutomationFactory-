@@ -3,40 +3,50 @@ package SingletonPatternPractice;
 public class Singleton {
 
 
+    //Important for Framework & Interview.    |     **IQ: What you mean by Singleton pattern or Singleton class in Java and how can you achieve the same concept
+    //or implement the same concept in Selenium?      Ans: singleton is a special class that can have ONLY ONE OBJECT or INSTANCE of the class AT A TIME. Same thing..
+    //Singleton is a pattern, it is not a keyword   |  .. we do in Selenium as well. If the driver = NULL then create the object otherwise don't do that
+    //In OOP, a singleton class is a special class that can have ONLY ONE OBJECT or INSTANCE of the class AT A TIME.
 
-    //In OOP, a singleton class is a special class that can have only one object or instance of the class at a time.
-    //How to design Singleton class:
-    //1st: Make constructor of the class as private
-    //2nd: Write a public static method(getInstance)that has return type of object of this Singleton class (lazy Initialization)
+    //How to design Singleton class?
+    //1st: Make constructor of the class as PRIVATE
+    //2nd: Write a PUBLIC static (getInstance) method that has return type of object of this Singleton class (Lazy Initialization)
+    // **IQ: What do you mean by Lazy Initialization?
 
 
     private static Singleton singleton_instance = null;
-    public String str;
+    public String str;    //(Reference variable) = pointing to NULL
 
 
     private Singleton(){
-        str = "Hey, I am using singleton class pattern";
+        str = "Hey.. I am using singleton class pattern cuz it kicks ass!";
 
     }
 
-    public static Singleton getInstance(){  //During interview you have to write this method and write this condition (this called lazy initialization)
-        if(singleton_instance == null)
-            singleton_instance = new Singleton();
+                           //getInstance Method will return the Instance of this particular Singleton class, the object of this class
+    public static Singleton getInstance(){  //During interview you have to WRITE this method and write this condition (this called LAZY Initialization)
+        if(singleton_instance == null) //If Reference Variable is = to NULL then Initialize this particular instance variable
+            singleton_instance = new Singleton(); //If it is NULL only then we initialize, other wise no need to initialize
         return singleton_instance;
     }
 
-    public static void main(String[] args) {
-        Singleton x = Singleton.getInstance();
-        Singleton y = Singleton.getInstance();
+    public static void main(String[] args) {  //Now to test it write PSVM, Inside we'll test this feature
+        Singleton x = Singleton.getInstance(); //Call getInstance method with help of Singleton class . (dot) will give option for getInstance(), this will return Singleton Class object..
+        Singleton y = Singleton.getInstance();                                                      //..then store it inside Singleton class reference variable like Singleton X =
         Singleton z = Singleton.getInstance();
+        //Created three objects with three references so 3x calling getInstance() method
 
-        x.str = (x.str).toUpperCase();
+        x.str = (x.str).toUpperCase(); //Will return str = string & convert to capital with UpperCase() method then STORE it inside x.str on the other side of =
 
-        System.out.println(x.str);
-        System.out.println(y.str);
-        System.out.println(z.str);
+        System.out.println(x.str);  //Once object is created it is givin to X so is the statement from str
+        System.out.println(y.str); //Y will call getInstance() method as well and discover in Line 28, that Singleton_instance is NOT = NULL anymore cuz it is ALREADY Initialized W/ X, so that means ONLY 1 time Object is created, only 1 time this class is instantiated by X
+        System.out.println(z.str);//Z will discover that Singleton_instance is NOT NULL as well so Y & Z will return the same statement cuz it is pointing to the same object which is X
+                                 //So this returning "Singleton Instance" only, which is already pointed to an object (X) so these 3 objects will refer to "COMMON OBJECT" & this called = SINGLETON
 
-        z.str = (z.str).toLowerCase();
+        z.str = (z.str).toLowerCase();  //First we change Z to lower case with LowerCase() method then Store it on the other side of =
+
+        System.out.println("*************************");
+
         System.out.println(x.str);
         System.out.println(y.str);
         System.out.println(z.str);

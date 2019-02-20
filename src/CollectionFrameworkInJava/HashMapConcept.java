@@ -12,7 +12,7 @@ public class HashMapConcept {
         //Extends AbstractMap (Inherit AbstractMap) from parent
         //IQ: It contains Only UNIQUE elements
         //Stores the values - key - value pair
-        //it may have ONE null key and Multiple null values it can store
+        //it may have ONE null KEY and Multiple null Values it can store
         //It maintains NO order (No storing on the basis or index or anything..)
         //Fail - Fast Condition or concurrent modification exception because of below......
 
@@ -20,9 +20,11 @@ public class HashMapConcept {
 
         threads can access and process the HashMap simultaneously. It means there are multiple threads that are running on. Then HashMpa object can be accessed by all the
 
-        thread so the performance of the HashMap will be increased automatically. Because whenever you have to use FAST PERFORMANCE SYSTEM in that case, we
+        thread so the performance of the HashMap will be increased automatically. Because whenever we have to use FAST PERFORMANCE SYSTEM in that case, we
 
-        have to use HashMap. We don't use HashTable because "HashTable" IS "Synchronized" with thread safe, it means in HasTable ONE thread at a time can access HashTable
+        have to use HashMap.
+
+        We don't use HashTable because "HashTable" IS "Synchronized" With thread safe, it means in HasTable ONE thread at a time that can access HashTable
 
         object. However, HashMap can be accessible by multiple threads at the same time. It means HashMap is NON-Synchronized, it is NOT thread safe. It means multiple threads
 
@@ -42,18 +44,19 @@ public class HashMapConcept {
         */
 
         //KEY, Value
-        HashMap<Integer, String> hm = new HashMap<Integer, String>();  //Import hashMap from Java Util package
+        HashMap<Integer, String> hm = new HashMap<Integer, String>();  //Import HashMap from Java Util package
 
         hm.put(1, "Selenium");
         hm.put(2, "QTP");
         hm.put(3, "TestComplete");
-        hm.put(4, "RFT");           //If comment it out this and print we'll get Null only..
+        //hm.put(4, "RFT");  //If we comment out RFT and print we'll get Null only..
 
 
         System.out.println(hm.get(1));  //If we want to fetch the values we use: Entry set & Entry Concept
         System.out.println(hm.get(2));
         System.out.println(hm.get(3));
-        System.out.println(hm.get(4));   //4 will give you NULL, will NOT give: NPException because HashMap does not store values on the basis of indexes
+        System.out.println(hm.get(4));   //4 will give you NULL if commented out above, will NOT give: NPException because HashMap does not store values on the basis of indexes
+
 
         //How to iterate HashMap?
         //use Map.Entry interface  | hm.entrySet will store the complete values from this HashMap, iterate 1 by 1..
@@ -61,9 +64,9 @@ public class HashMapConcept {
             System.out.println(m.getKey() + " " + m.getValue());
         }
 
-        System.out.println(hm); //Here it gives you all the keys from above, before remove method
+        System.out.println(hm); //Here it gives you all the KEYS from above, before remove method
 
-        hm.remove(3);   //After Remove method
+        hm.remove(2);   //After Remove method
         System.out.println(hm); //Print will show TestComplete gone but the numbers organizing structure remains the same, it will NOT self reorganize its self to shift the KEY up
 
 
@@ -74,9 +77,9 @@ public class HashMapConcept {
         //<Integer = Employee 1, Employee = Employee Information (name, age, dept)>
 
 
-        //Step 2: Now create multiple employees by creating Employee class object
+        //Step 2: Create multiple employees by creating Employee class object
 
-                            //Now in constructor we'll pass name, age, dept) to initialize it
+        //Now in constructor we'll pass name, age, dept) to initialize it
         Employee e1 = new Employee("Asif", 25, "admin");
         Employee e2 = new Employee("Jewell", 33, "QA");
         Employee e3 = new Employee("Shams", 29, "DEV");
@@ -87,16 +90,17 @@ public class HashMapConcept {
         emp.put(3, e3);
 
         //Now to Iterate, Print everything in console or Traverse the HashMap:
-        for (Map.Entry<Integer, Employee> m : emp.entrySet()){  // m: emp.entrySet() stores all above 3 employees in m    |
+        for (Map.Entry<Integer, Employee> m : emp.entrySet()) {  // m: emp.entrySet() stores all above 3 employees in m    |
             int key = m.getKey();  //Start w/ m.getKey() will return Integer
-            Employee e = m.getValue(); //Start w/ m.getValue represent all 3 above Employees then store the entire get value which will be stored in Employee reference e,
+            Employee e = m.getValue(); //Start w/ m.getValue represent all 3 above Employees then the entire get value which will be stored in Employee reference e,
             System.out.println("Employees " + key + " Info: ");                                              //and e points to all three objects
-                       //            start w/ key append w/ + string Info
+            //            start w/ key append w/ + string Info
 
-                             //e points to all three objects then just call all the variables & print
+            //e points to all three objects then just call all the variables & print
             System.out.println(e.name + " " + e.age + " " + e.dept);
 
         }
     }
 }
+
 

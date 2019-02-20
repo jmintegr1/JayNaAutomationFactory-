@@ -9,25 +9,25 @@ public class ArrayListConcept {
 
         //Dynamic array -- ArrayList
         //1. can contain duplicated values/elements
-        //2. Maintains insertion order, Java organizing principle 0,1,2,3,4,5..... to maintain the order of the Array
-        //3. Not Synchronized, not thread safe, that's why ArrayList is slow
-        //4. Allows random access to fetch any element because it stores the values on the basis of indexes
+        //2. Maintains Insertion order, Java organizing principle 0,1,2,3,4,5..... to maintain the order of the Array
+        //3. Non-Synchronized, not thread safe, that's why ArrayList is slow
+        //4. Allows random access to fetch any element because it stores the values on the basis of Indexes
 
         int a[] = new int[3]; //This is Static array -- size is fixed, so can't go beyond that size
 
         ArrayList ar = new ArrayList();  //Now in Java memory an object is created.. represented with ar which can hold multiple array,
-                                           // we can go beyond the size  (non-generic cuz no description in wrapper)
+                                           // we can go beyond the size  (Non-Generic cuz no description in wrapper)
         ar.add(10);//0
         ar.add(20);//1
         ar.add(30);//2
 
         System.out.println(ar.size());  //ar.size method is used to length the size of the array
 
-        ar.add(40);//3      //So on the next day we added 2 more, no problem
+        ar.add(40);//3      //So on the next day we added 3 more, no problem
         ar.add(50);//4
         ar.add(50);//5
 
-        System.out.println(ar.get(4)); // ar.GET method is used to the value of particular array position
+        System.out.println(ar.get(4)); // ar.GET() method is used to get the value of particular array position
 
         System.out.println(ar.size());  //Now updated array size shows it grows in dynamic array
 
@@ -60,25 +60,29 @@ public class ArrayListConcept {
         //Non generic vs. generic:
 
 
-        ArrayList<Integer> ar2 = new ArrayList<Integer>();  //<Integer> makes it generic in java  (meaning only ONE type, only Integer)
+        ArrayList<Integer> ar2 = new ArrayList<Integer>();  //<Integer> makes it GENERIC in java  (meaning only ONE type, only Integer)
         ar2.add(100);
-        //ar1.add("Test"); //This will give error cuz after making it generic for Integer only in/wrapper class, it can only take integer so String will not do
+        //ar1.add("Test"); //This will give error cuz after making it generic for Integer only in/wrapper class, it can only take integer so it will not take String now
 
         ArrayList<String> ar3 = new ArrayList<String >(); //Now it is defined generic for String only
         ar.add("Jewell");
         ar.add("Selenium");
         //ar3.add(100); //This is not allowed because now the wrapper class is set for String only
 
+        System.out.println(ar2);
+        System.out.println(ar3);
+
+
 
         //**IQ What is the difference between Array  & ArrayList?
 
 
-       ArrayList<E> ar4 = new ArrayList<E>(); //Not sure what kind of data type (to keep it open so we use <E> to leave it flexible both data type
-        //We can also define class object  | To keep if flexible you have to put <E> above, front of Main line 8: public static <E> void main(String[] args){
+       ArrayList<E> ar4 = new ArrayList<E>(); //Not sure what kind of data type (so to keep it open we use <E> to leave it flexible for both data type
+        //We can also define class object  | To keep if flexible you have to put <E> above, front of Main as well in line 8: public static <E> void main(String[] args){
 
-        //****How to define the user-defined class object ArrayList?
+        //****IQ: How to define the user-defined class object ArrayList?
 
-        //Create Employee User Defined CLASS and from there store the variables with help of constructor in this ArrayList object
+        //Create Employee User Defined CLASS and from there store the variables with help of constructor in this ArrayList object here
         //Employee class Objects:
         Employee e1 = new Employee("Jewell", 43, "QA");
         Employee e2 = new Employee("Naveen", 29, "Admin");
@@ -90,23 +94,22 @@ public class ArrayListConcept {
         ar5.add(e2);
         ar5.add(e3);
 
-         //Iterator to traverse the values:     |   Iterator does NOT work on basis of index so use for loop because they are stored on basis of Object
+         //Iterator to traverse the values:     |   Iterator does NOT work on basis of Index so use for loop because they are stored on basis of Object
         Iterator<Employee> it = ar5.iterator();  //Use Iterator W/help of WHILE Loop for above Employees ArrayList to traverse the value & print them
-        while(it.hasNext()){      //HAS Next Method Creates the Iterator selection and CHECKS if the first value in the Array box is available here or NOT so hasNext will POINTS to first value
-            Employee emp = it.next();   //NEXT Method will: "Returns the next element in the Iteration" from the vertical box from above and so on... since the first value is E1 (employee type)
+        while(it.hasNext()){    //HasNext Method Creates the Iterator selection and CHECKS if the first value in the Array box is available here or NOT so hasNext will POINT to first value
+            Employee emp = it.next();   //NEXT Method will: "Return the next element in the Iteration" from the vertical box from above and so on... since the first value is E1 (employee type)
             System.out.println(emp.name); //so we STORE it inside employee type reference variable here by making Employee emp =
             System.out.println(emp.age);
             System.out.println(emp.dept);
         }
             //****IQ: How to store the specific user defined class object in a particular ArrayList?
 
-          //In the User Defined Class in "Employee" class.. create constructor with these 3 variables then back in
+          //In the User Defined Class in "Employe class" create constructor with these 3 variables then back in
          // ArrayListConcept to store the values by creating ArrayList Object then with the help of Iterator we print all the values & we have to Iterate to traverse all the
         // value from these 3 objects
 
 
         System.out.println("**************");
-
 
 
         //addAll() method
@@ -115,23 +118,33 @@ public class ArrayListConcept {
         ar6.add("Selenium");
         ar6.add("QTP");
 
+        System.out.println(ar6);
+
         ArrayList<String> ar7 = new ArrayList<String>();
         ar7.add("dev");
         ar7.add("Java");
         ar7.add("JavaScript");
 
-                                   //How will you merge two ArrayList?
-        ar6.addAll(ar7);          //Ans: addAll method will merge the two ar6 and ar7 object values together then will be stored inside ar6, so they will merged
-        for(int i=0; i<ar6.size(); i++){
+        System.out.println(ar7);
+
+
+        //How will you merge two ArrayList?
+        ar6.addAll(ar7);          //Ans: addAll method will merge the two ar6 and ar7 object values together then will be stored inside ar6, so they will merged..
+        for(int i=0; i<ar6.size(); i++){       //..with help of for loop.
             System.out.println(ar6.get(i));   //Before ar6 had 3 values but after merge via the for loop it will have 6 values
         }
 
+        ArrayList<Integer> arz = new ArrayList<Integer>();
+        arz.add(7);  //add method w/ Integer
+        arz.add(9);
+        arz.add(11);
 
+        System.out.println(arz);
 
 
         System.out.println("**************");
 
-       //removeAll method:   Here we are removing all ar7 values from ar6 = printing ony ar6 values
+       //removeAll method:   Here we are removing all ar7 values from ar6 = printing ony ar6 values so back to 3 values
         ar6.removeAll(ar7);
         for(int i=0; i<ar6.size(); i++){
             System.out.println(ar6.get(i));
@@ -144,7 +157,7 @@ public class ArrayListConcept {
 
         //Now we will check the intersection part, the common part so use: retainAll() method
 
-       ArrayList<String> ar8 = new ArrayList<String>();
+        ArrayList<String> ar8 = new ArrayList<String>();
         ar8.add("test");
         ar8.add("Selenium");
         ar8.add("QTP");
