@@ -32,32 +32,6 @@
       <change afterPath="$PROJECT_DIR$/../HumanOOP/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../HumanOOP/src/HomoSapien/Earth.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ILovePain" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameworkInJava/ArrayListConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameworkInJava/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameworkInJava/HashMapConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameworkInJava/HashTableConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameworkInJava/LinkedListConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Intellij_Selenium/RunFirefox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/ArrayConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/CarConstructorConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/ConstructorConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/ExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/IfElseConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/IncrementAndDecerementOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/LocalVsGlobalVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/LoopsConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/StringConcatenation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/ThrowKeywordExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/ThrowsKeywordExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaBasics/TwoDimensionalArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP3/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP3/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPConceptPart1/CallByValueAndCallByReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPConceptPart1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPConceptPart1/FunctionsInJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPConceptPart1/MethodOverLoading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOPConceptPart1/StaticAndNonStaticConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/defaultPackage/DriverInit.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../KingArmy/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../KingArmy/src/ArchType/King.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../KingArmy/src/ArchType/Sage.java" afterDir="false" />
@@ -92,84 +66,7 @@
       <change afterPath="$PROJECT_DIR$/../reBuilt/src/Galaxy/Earth7.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/src/Earth5.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/src/Human5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/CollectionFrameworkInJava/ArrayListConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/CollectionFrameworkInJava/ArrayListConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/CollectionFrameworkInJava/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/CollectionFrameworkInJava/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/CollectionFrameworkInJava/HashMapConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/CollectionFrameworkInJava/HashMapConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/CollectionFrameworkInJava/HashTableConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/CollectionFrameworkInJava/HashTableConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/CollectionFrameworkInJava/LinkedListConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/CollectionFrameworkInJava/LinkedListConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/ArrayConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/ArrayConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/CarConstructorConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/CarConstructorConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/ConstructorConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/ConstructorConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/ExceptionHandling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/ExceptionHandling.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/IfElseConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/IfElseConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/IncrementAndDecerementOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/IncrementAndDecerementOperator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/LocalVsGlobalVariables.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/LocalVsGlobalVariables.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/LoopsConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/LoopsConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/StringConcatenation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/StringConcatenation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/StringConceptWhyStringIS_Immutable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/StringConceptWhyStringIS_Immutable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/ThrowKeywordExceptionHandling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/ThrowKeywordExceptionHandling.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/ThrowsKeywordExceptionHandling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/ThrowsKeywordExceptionHandling.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/TwoDimensionalArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/JavaBasics/TwoDimensionalArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOP2/Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOP2/Dog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOP2/ICICIBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOP2/ICICIBank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOP2/TestBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOP2/TestBank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOP3/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOP3/Shape.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOP3/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOP3/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart1/CallByValueAndCallByReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart1/CallByValueAndCallByReference.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart1/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart1/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart1/MethodOverLoading.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart1/MethodOverLoading.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart1/StaticAndNonStaticConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart1/StaticAndNonStaticConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart1/WrapperClassConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart1/WrapperClassConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart2/BMW.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart2/BMW.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart2/TestCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/OOPConceptPart2/TestCar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/SingletonPatternPractice/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/SingletonPatternPractice/Singleton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/testCasesFor3Fs/FinalConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/testCasesFor3Fs/FinalConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/testCasesFor3Fs/FinalizeConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/testCasesFor3Fs/FinalizeConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/testCasesFor3Fs/FinallyConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JayNaAutomationFactory/testCasesFor3Fs/FinallyConcept.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CollectionFrameworkInJava/ArrayListConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFrameworkInJava/ArrayListConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFrameworkInJava/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFrameworkInJava/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFrameworkInJava/HashMapConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFrameworkInJava/HashMapConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFrameworkInJava/HashTableConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFrameworkInJava/HashTableConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFrameworkInJava/LinkedListConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFrameworkInJava/LinkedListConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/ArrayConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/ArrayConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/CarConstructorConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/CarConstructorConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/ConstructorConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/ConstructorConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/ExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/ExceptionHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/IfElseConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/IfElseConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/IncrementAndDecerementOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/IncrementAndDecerementOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/LocalVsGlobalVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/LocalVsGlobalVariables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/LoopsConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/LoopsConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/StringConcatenation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/StringConcatenation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/StringConceptWhyStringIS_Immutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/StringConceptWhyStringIS_Immutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/ThrowKeywordExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/ThrowKeywordExceptionHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/ThrowsKeywordExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/ThrowsKeywordExceptionHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBasics/TwoDimensionalArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBasics/TwoDimensionalArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP2/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP2/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP2/ICICIBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP2/ICICIBank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP2/RBI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP2/RBI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP2/TestBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP2/TestBank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP2/USBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP2/USBank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP3/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP3/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP3/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPConceptPart1/CallByValueAndCallByReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPConceptPart1/CallByValueAndCallByReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPConceptPart1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPConceptPart1/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPConceptPart1/FunctionsInJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPConceptPart1/FunctionsInJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPConceptPart1/MethodOverLoading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPConceptPart1/MethodOverLoading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPConceptPart1/StaticAndNonStaticConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPConceptPart1/StaticAndNonStaticConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPConceptPart1/WrapperClassConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPConceptPart1/WrapperClassConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPConceptPart2/BMW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPConceptPart2/BMW.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPConceptPart2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPConceptPart2/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPConceptPart2/TestCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPConceptPart2/TestCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOPConceptPart2/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOPConceptPart2/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SingletonPatternPractice/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SingletonPatternPractice/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testCasesFor3Fs/FinalConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testCasesFor3Fs/FinalConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testCasesFor3Fs/FinalizeConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testCasesFor3Fs/FinalizeConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testCasesFor3Fs/FinallyConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testCasesFor3Fs/FinallyConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testPackage4finalKeyword/ChildClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testPackage4finalKeyword/ChildClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testPackage4finalKeyword/ParentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testPackage4finalKeyword/ParentClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -332,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="958" />
@@ -425,7 +322,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567625977843" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567626289807" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -548,7 +445,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="958" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="958" extended-state="1" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
