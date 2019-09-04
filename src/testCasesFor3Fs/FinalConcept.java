@@ -1,12 +1,13 @@
 package testCasesFor3Fs;
 
-//Final is a "Keyword" right after public
 public class FinalConcept {
     public static void main(String[] args) {
 
-        final int i = 10;    //Once we type final front of int it is CONSTANT VALUES,  now the subsequent values cannot be automatically modifed here like below when with final Key Word
-        //i = 20;           //final with small cap is ALSO used to prevent Inheritance
+        //Final is a "KEYWORD" before the variable to lock in any changes
+
+        final int i = 10;    //Once we type final KEYWORD front of int variable, it changes to CONSTANT VALUES.  Now the subsequent values cannot automatically be updated like below cuz with final Key Word making it CONSTANT
+        //i = 20;           //final with small cap, ALSO used to prevent Inheritance & prevent Method Overriding
         //i = 30;
-        System.out.println(i);  //Without final key word, i below automatically changes to 1 = 30;
+        System.out.println(i);  //Without final keyword, i below automatically updates int i to = 30, With final now these variables will give error
     }
 }

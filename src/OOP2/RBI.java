@@ -8,13 +8,10 @@ public interface RBI {
 
     public void carLoan();
 
-
-
-    //Interface has no method body, only method declaration, only method prototype
-    //Cannot create the object of interface
-    //No static methods
-    //But interface variables are static in nature by default
-
-
-
 }
+
+//Interface has NO method body, only method Declaration, only method prototype (just guideline)
+//Cannot create the object of an interface
+//No static methods BUT interface Variables are static in NATURE by default
+
+

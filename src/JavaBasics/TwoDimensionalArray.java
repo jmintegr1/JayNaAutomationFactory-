@@ -6,9 +6,12 @@ public class TwoDimensionalArray {
 
         String x[][] = new String[3][5];
 
-        System.out.println(x.length); //3  -- total # of rows = 3
+        System.out.println(x.length); //3  -- total # of rows (or size) = 3
         System.out.println(x[0].length);  //5 --total # of columns = 5
-        System.out.println(x[2].length); //Columns will be the same from 0-2
+        System.out.println(x[2].length); //Columns will be the same from 0 and 2
+
+
+        System.out.println("**************");
 
 
         //1st box represent # rows | 2nd square brackets represents columns
@@ -35,16 +38,9 @@ public class TwoDimensionalArray {
         x[2][4] = "E2";
 
 
-
         System.out.println(x[1][2]);
         System.out.println(x[2][2]);
-
-
-        System.out.println("**************");
-
-        //IQ: How to print ALL the values of 2 dimensional array?
-        // Ans: We use TWO for loop, inner loop and outer loop. One loop is for row and the 2nd loop is for the column!
-
+        System.out.println(x[0][3]);
 
         System.out.println(x[0][4]);
         //row =0, col = 0 to 4
@@ -52,10 +48,17 @@ public class TwoDimensionalArray {
         //row = 2, col = 0 to 4  out of both loops now
 
 
-        for(int row=0;row<x.length;row++){  //"Outer for loop" for row
-            for(int col=0;col<x[0].length;col++){ // Inner "for loop" for column, internal loop will execute 1st
-                System.out.println(x[row][col]);
+        System.out.println("**************");
+
+        //***IQ: How to print ALL the values of 2 dimensional array?
+        // Ans: We use TWO for loops, inner loop and outer loop. One loop is for Row and the 2nd loop is for the Column!
+
+
+        for(int row=0;row<x.length;row++){  //"Outer for loop" for Row
+            for(int col=0;col<x[0].length;col++){ //Inner "for loop" for column & here put zero. then call length, internal loop will execute 1ST
+                System.out.println(x[row][col]); //Then print together in the order of row 1st then col]
             }
         }
     }
 }
+

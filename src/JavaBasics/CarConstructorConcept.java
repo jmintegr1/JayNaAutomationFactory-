@@ -20,10 +20,13 @@ public class CarConstructorConcept {
         CarConstructorConcept obj2 = new CarConstructorConcept("Audi", "A8", 65,"Automatic");
         CarConstructorConcept obj3 = new CarConstructorConcept("Honda",  "Accord", 25, "Manual");
         CarConstructorConcept obj4 = new CarConstructorConcept("Ford","Mustang", 40, "Manual ");
+        CarConstructorConcept obj5 = new CarConstructorConcept("Toyota","Corolla", 39, "Manual ");
 
         System.out.println(obj1.name + " " + obj1.modelNumber  + " " + obj1.price + " " + obj1.engine);
         System.out.println(obj2.name + " " + obj1.modelNumber + " " + obj2.price + " " + obj2.engine);
         System.out.println(obj3.name + " " + obj3.modelNumber + " " + obj3.price + " " + obj3.engine);
-        System.out.println(obj4.price + " " + obj4.modelNumber + " " + obj4.engine + " " + obj4.name); //Here rearranged a bit*/
+        System.out.println(obj4.price + " " + obj4.modelNumber + " " + obj4.engine + " " + obj4.name); //Here rearranged a bit
+        System.out.println(obj4.name + " " + obj4.modelNumber + "  " + obj4.price + " " + obj4.engine);
+        System.out.println(obj5.name + " " + obj5.modelNumber + " " + obj5.price + " " + obj5.engine);
     }
 }

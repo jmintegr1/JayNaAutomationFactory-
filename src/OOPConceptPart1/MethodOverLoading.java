@@ -11,23 +11,22 @@ public class MethodOverLoading {
         obj.sum(10, 5);
     }
 
-    public static void main(int p){ //We can overload MAIN Method name as long as there are different input parameters
+    public static void main(int p){ //We can overload MAIN Method name as long as there are DIFFERENT input parameters
 
     }
 
-    public static void main(int p, int h) { //We can over load MAIN w/ 2 input parameters, one identical one different
+    public static void main(int p, int h) { //We can over load MAIN w/ 2 input parameters, one identical and one has to be different
 
     }
 
     public void sum(){ //Zero parameter in 1 sum method is allowed
         System.out.println("SUM method--zero parameter");
 
-       /* public void test(){           //And we cannot create method inside a method
+       /* public void test(){           //And we CANNOT create method inside a method
         }*/
-
-    }public void sum(double d){ //Although only 1 input parameter but using different parameter than int i, we are using "double d", so this is allowed
-        System.out.println("SUM method--zero parameter");
-
+    }
+    public void sum(double d){ //Although only 1 input parameter but using different parameter than int i, we are using "double d", so this is allowed
+        System.out.println("SUM method -- zero parameter");
     }
 
     public void sum(int i ){ //Zero parameter in 2 sum method is not allowed so we put one input parameter with int i.
@@ -35,13 +34,13 @@ public class MethodOverLoading {
         System.out.println(i);
     }
 
-    public void sum(int k, int m) { //2 input paramaters
+    public void sum(int k, int m) { //2 input parameters
         System.out.println("sum method --- 2 input parameters");
         System.out.println(k + m);
     }
 }
 //Method overloading --> When method name is SAME but with different "arguments or input" parameters within the SAME CLASS.
 //And we CANNOT create method inside a method
-//Duplicate methods are not allowed -- same method name with same number of arguments are not allowed,  methods are independent of each other
+//Duplicate methods are not allowed -- same method name with same number of arguments are NOT allowed,  methods are independent of each other
 //We can overload MAIN METHOD as well
 

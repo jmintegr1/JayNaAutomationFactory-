@@ -3,20 +3,20 @@ package OOPConceptPart1;
 public class FunctionsInJava {
 
     //Main Method is the starting point of execution
-    //Method and Function used interchangeably              //**IQ: Why main method is void?
+    //Method and Function are used interchangeably              //**IQ: Why main method is void?
     public static void main(String[] args) {    //Ans: Main method is void because it never returns a value, We NEVER write a return statement inside main
 
         FunctionsInJava obj = new FunctionsInJava(); //If I don't instantiate this object than I cannot call the 4 methods below, they are useless without it
 
-        //Always remember new FunctionsInJava is the OBJECT, on the other side obj, is the REFERENCE VARIABLE
-
-        // One object will be created, obj is the reference variable, referring to this object
-
-        //after creating the object, the copy of all NON-static methods will be ASSIGNED to this object (all 4 methods below)
-
-        //NON-static methods are assigned because object CANNOT HOLD STATIC METHOD so Main is not assigned to the obj
-
-        //If you want to call non-static method of any class, you have to create an object and use its reference variable
+//        Always remember new FunctionsInJava is the OBJECT, on the other side of = obj, is the REFERENCE VARIABLE
+//
+//        One object will be created, obj is the reference variable, referring to this object
+//
+//        after creating the object, the copy of all NON-static methods will be ASSIGNED to this object (all 4 methods below)
+//
+//        NON-static methods are assigned because object CANNOT HOLD STATIC METHOD so Main is NOT assigned to the obj.
+//
+//        If you want to call Non-Static method of ANY Class, you have to create an Object and use its Reference variable.
 
 
         obj.testRun();
@@ -40,7 +40,7 @@ public class FunctionsInJava {
     }
 
     //return type = int, if put void it will not work as there is conflict as we want result in return keyword below
-    public int PQR() {  //Or JoeShomo, give it any name you want   |   No input in parameter  but some output
+    public int PQR() {  //Or JoeShomo(), give it any name you want   |   No input in parameter but some output
         System.out.println("PQR method");
 
     int a = 10;  //Inside this method we declare some variables
@@ -61,7 +61,7 @@ public class FunctionsInJava {
 
     //return type is int
     //Here we are using x & y in as input parameters/arguments
-    public int division(int x, int y) {    //You can only have int as return type as it gives you result of integer in return d
+    public int division(int x, int y) {   //You can only have int as return type as it gives you result of integer in return d
         System.out.println("division method");
         int d = x / y;
 

@@ -5,17 +5,19 @@ public class IfElseConcept {
     public static void main(String[] args) {
 
         int a = 30;
-        int b = 20;
+        int b = 40;
 
-        if (b > a) {   //True statement
+        if (b > a) {
             System.out.println("b is greater than a");
         } else {
             System.out.println("a is greater than b");   //If above is false then program will kick it down to Else Statement
         }
 
-        //Comparison operators:
-        //< > <= >= == != (Exclamation Equal is NOT EQUAL TO)
 
+        //:Comparison operators
+        //< >  <=   >=  ==(Also Comparison operators) != (Exclamation Equal means: NOT EQUAL TO)
+
+        System.out.println("*******************");
 
         int c = 40;
         int d = 50;
@@ -27,8 +29,38 @@ public class IfElseConcept {
         }
 
 
+        System.out.println("*******************");
+
+
 
         //Write a logic to find out the highest number?
+
+
+        int d1 = 600;
+        int e1 = 500;
+        int f1 = 400;
+
+
+        //Nested if-else (Means = if, else, else)
+
+        //Write a logic to find the lowest number from three variables? / Or the most accurate true/false logic?
+
+
+
+        if (d1 > e1 & d1 > f1){  //True & True = True,  False & False = False, False & True = False   |   & = And Operator
+            System.out.println("d1 is the greatest compare to the other two");
+        }
+        else if(e1<f1){
+            System.out.println("e1 is the greatest compare to c1");
+        }
+        else {
+            System.out.println("c1 is the greatest compare to other two");
+        }
+
+
+        System.out.println("*******************");
+
+
         int a1 = 400;
         int b1 = 500;
         int c1 = 300;
@@ -36,7 +68,11 @@ public class IfElseConcept {
 
         //Nested if-else (Means = if, else, else)
 
-        if (a1 > b1 & a1 > c1){  //True & True = True,  False & False = False, False & True = False   |    & = And Operator
+        //Write a logic to find the lowest number from three variables? / Or the most accurate true/false logic?
+
+
+
+        if (a1 > b1 & a1 > c1){  //True & True = True,  False & False = False, False & True = False   |   & = And Operator
             System.out.println("a1 is the truithest compare to the other two");
         }
         else if(b1<a1){
@@ -47,5 +83,11 @@ public class IfElseConcept {
         }
 
 
-    }    //Write a logic to find out the highest number of 3 variables
+        System.out.println("*******************");
+
+
+        //Write a logic to find out the highest number of 3 variables
+
+
+    }
 }

@@ -16,9 +16,9 @@ public class StringConcatenation {
 
         System.out.println(a + b); //Here we add
 
-        System.out.println(x + y);  //Text put side by side
+        System.out.println(x + y);  //Text are put side by side | If we don't put println then it will print numbers and text side by side and not start on the next line   = HelloWorld
 
-        System.out.println(a + b + x + y); //since Numbers FIRST, it gets added then text can only be put side by side
+        System.out.println(a + b + x + y); //Since Numbers FIRST, it gets added then text can only be printed side by side  = 300HelloWorld
 
         System.out.println(x+y+a+b);  //When String first, so x+y+a BECOME new string then add to b that too become a new string.  The answer is HelloWorld100200 left to right, here we don't add, just print side by side
 
@@ -30,7 +30,6 @@ public class StringConcatenation {
 
         System.out.println(a+b+x+y+(+a+b));
 
-
         System.out.println(c+d);
 
         System.out.println(x+y+c+d);
@@ -39,7 +38,7 @@ public class StringConcatenation {
 
         System.out.println(a);
 
-        System.out.println("The value of a is: " +a);
+        System.out.println("The value of a is: " + a);
 
         System.out.println("the value b is: " + b);
 
@@ -49,7 +48,7 @@ public class StringConcatenation {
 
         System.out.print("I am beginning to love automation so  I say: "); //and ends when it prints Hello Testing because the last line has println
 
-        System.out.println("Hellooooooo Automation Testingggggggggg");
+        System.out.print("Hellooooooo Automation Testingggggggggg");
 
     }
 }

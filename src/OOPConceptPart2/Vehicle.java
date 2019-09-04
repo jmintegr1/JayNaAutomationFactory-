@@ -1,6 +1,6 @@
 package OOPConceptPart2;
 
-public class Vehicle {
+public class Vehicle {  //Grandparent
 
     public void engine(){
 

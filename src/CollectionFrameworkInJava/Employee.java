@@ -1,8 +1,9 @@
 package CollectionFrameworkInJava;
 
-//Extension from ArrayList video time 22:45.. this is user defined class.. create constructor with these 3 variables then back in
-// ArrayListConcept to store the values by creating ArrayList Object then with the help of Iterator we print all the values & we have to Iterate to traverse all the values
-//from these 3 objects
+//Extension from ArrayList video time 22:45 (data from this class is used in ArrayListConcept)
+// This is user defined class.. create constructor with these 3 variables then back in
+// ArrayListConcept, to store the values by creating ArrayList Object then with the help of Iterator we print all the values & we have to Iterate it to traverse all the values
+//from those 3 objects
 
 public class Employee {
 
@@ -17,4 +18,4 @@ public class Employee {
     }
 }
 
-  //The info here are also used to store it in Java HashMap.. refer to line 59 in HashTableConcept:
+  //The info here are also used to store it in Java HashMap.. refer to line 61 in HashTableConcept:

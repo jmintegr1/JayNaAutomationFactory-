@@ -11,7 +11,7 @@ public class Car {
 
 
 
-        Car a = new Car();   // new Car(); ---> This latter part with keyword NEW is the object of car class, not the first part
+        Car a = new Car();   // new Car(); ---> This latter part with keyword NEW is the object of Car Class, not the first part
         Car b = new Car();   //a,b,c ---> are Object reference variables
         Car c = new Car();
 
@@ -47,9 +47,8 @@ public class Car {
         a.model =10;
         System.out.println(a.model); //Output will be 10
         c.model =20;
-        System.out.println(a.model); //Now output will be 20 for a because c was changed, it changed a as well in the object after shfit
+        System.out.println(a.model); //Now output will be 20 for A because C was changed, it changed A as well in the object after shift
         System.out.println(c.model);
-
 
     }
 }
