@@ -9,7 +9,7 @@ public class HashMapConcept {
     public static void main(String[] args) {
 
         //HashMap is a class that implements Map Interface
-        //Extends AbstractMap (Inherit AbstractMap) from parent
+        //Implements AbstractMap (Inherit AbstractMap) from parent
         //**IQ: What kind of element does HashMap  contains? -- It contains Only UNIQUE elements
         //Stores the values on key & value pair basis
         //It may have ONE NULL KEY but Multiple Null Values can stored
