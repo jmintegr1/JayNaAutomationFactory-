@@ -1,7 +1,6 @@
 package CollectionFrameworkInJava;
                                         //This is a a test, it is ONLY A TEST!!
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -21,9 +20,9 @@ public class ArrayListConcept {
                                         //We can go beyond the size in here (Non-Generic) cuz no square brackets & no limitation by [#] number in array)
         ar.add(10);//0                 //This is a dynamic array
         ar.add(20);//1
-        ar.add(30);//2
+        ar.add(30);//2               //Using add() we can different insert values in the index
 
-        System.out.println(ar.size());  //ar.size method is used to tally (count the size of the Array)
+        System.out.println(ar.size());  //ar.size method is used to tally (count the total size of the Array)
 
         ar.add(40);//3      //So on the next day we added 3 more, no problem because it is dynamic Array.. it will expand by demand
         ar.add(50);//4
@@ -35,7 +34,7 @@ public class ArrayListConcept {
 
 
        //ArrayList object reference line 20, we haven't defined the generic, that is why it's called NON-GENERIC ArrayList object, cuz we
-                                   //haven't defined anything here so we can use primitive & non-primitive (reference) data type as below
+                                   //haven't defined anything here so we can use primitive & non-primitive aka Reference  data type as below
         ar.add(12.33); //6
         ar.add("Test"); //7
         ar.add('a');//8
@@ -43,7 +42,7 @@ public class ArrayListConcept {
         ar.add(600);//10
 
 
-        ar.remove(6);
+        ar.remove(6);   //To remove index 6 use remove() method
 
         System.out.println(ar.size());
 
@@ -98,8 +97,7 @@ public class ArrayListConcept {
 
 
         //How do you print all the values from ArrayList? Ans:
-        //1. Use for loop
-        //2. Using iterator
+        //1. Use for loop and with combination of iterator
 
 
         //IQ: How to create ArrayList for objects?
@@ -109,9 +107,9 @@ public class ArrayListConcept {
         ar5.add(e3);
 
 
-         //Then Iterator to traverse the values:     |   Iterator does NOT work on the basis of Index so we use "for loop" because they are stored on the basis of an Object
+         //Then Iterator to traverse the values:  | Iterator does NOT work on the basis of Index so we use "for loop" because they are stored on the basis of an Object
 
-        Iterator<Employee> it = ar5.iterator();  //We use Iterator Method W/help of WHILE Loop for above Employees ArrayList object to traverse the value & print them
+        Iterator<Employee> it = ar5.iterator();  //So we use Iterator Method W/help of WHILE Loop for above Employees ArrayList object to traverse the value & print them
 
         while(it.hasNext()){    //HasNext Method Creates the Iterator selection and CHECKS if the first value in the Array box is available here or NOT so hasNext will POINT to the first value
 
@@ -148,7 +146,7 @@ public class ArrayListConcept {
         System.out.println(ar7);
 
 
-        //How will you merge two ArrayList?      In ArrayList & other collections class we use .size() method, we ONLY use .length in Regular Array
+        //How will you merge two ArrayList? -- In ArrayList & other collections class we use .size() method. We ONLY use .length in Regular Array or Static arry
         ar6.addAll(ar7);          //Ans: addAll method will merge the two ar6 and ar7 object values together then it will be stored inside ar6 so they will be merged..
         for(int i=0; i<ar6.size(); i++){       //.. and with the help of for loop.
             System.out.println(ar6.get(i));   //Before ar6 had 3 values but after merge via .addALL() & for loop it will have 6 values
@@ -166,7 +164,7 @@ public class ArrayListConcept {
 
        //removeAll method:   Here we are removing all ar7 values from ar6 then using for loop, printing ony ar6 values so back to 3 values
         ar6.removeAll(ar7);
-        for(int i=0; i<ar6.size(); i++){    //In ArrayList we use .size() method
+        for(int i=0; i<ar6.size(); i++){    //In Dynamic ArrayList we use .size() method to get total size
             System.out.println(ar6.get(i));
         }
 

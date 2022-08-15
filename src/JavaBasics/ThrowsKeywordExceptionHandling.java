@@ -11,8 +11,8 @@ public class ThrowsKeywordExceptionHandling{
 
     //public void sum() throws ArithmeticException{
 
-      public void sum(){   //Comment out 12 and with just sum method w/ try catch block
-        try {  //Now if we uncomment out try & catch block it will not be keep throwing till JVM & will get a print of the above statement from line 9 "ABC"
+      public void sum(){   //Comment out 12 and with just sum method w/try catch block
+        try {  //Now if we uncomment out try & catch block it will not be keep throwing until JVM & will get a print of the above statement from line 9 "ABC"
             division();   //Sum method will catch Exception from line 23 of division method because it is internally calling it here, then it will throw it to Main method
         } catch (ArithmeticException e) {
 
@@ -22,6 +22,5 @@ public class ThrowsKeywordExceptionHandling{
 
     public void division() throws ArithmeticException{  //Throws prevents from writing try catch block again & again if you have multiple exceptions say with 1,000 line of codes.
         int i = 9/0;    //This exception line from division method will be the 1st to be thrown to sum method above because sum method internally calling division method
-
     }
 }

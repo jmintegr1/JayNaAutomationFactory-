@@ -10,7 +10,6 @@ public class Car {
     public static void main(String[] args) {
 
 
-
         Car a = new Car();   // new Car(); ---> This latter part with keyword NEW is the object of Car Class, not the first part
         Car b = new Car();   //a,b,c ---> are Object reference variables
         Car c = new Car();

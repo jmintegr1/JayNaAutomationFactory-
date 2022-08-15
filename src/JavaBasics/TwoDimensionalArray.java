@@ -6,15 +6,15 @@ public class TwoDimensionalArray {
 
         String x[][] = new String[3][5];
 
-        System.out.println(x.length); //3  -- total # of rows (or size) = 3
-        System.out.println(x[0].length);  //5 --total # of columns = 5
+        System.out.println(x.length); // Total # of rows (or size) = 3
+        System.out.println(x[0].length);  //Total # of columns = 5
         System.out.println(x[2].length); //Columns will be the same from 0 and 2
 
 
         System.out.println("**************");
 
 
-        //1st box represent # rows | 2nd square brackets represents columns
+        //1st array symbol represent # rows | 2nd square brackets represents column
         //1st row = 0
         x[0][0] = "A";   //Storing values of 1st row
         x[0][1] = "B";
@@ -51,7 +51,7 @@ public class TwoDimensionalArray {
         System.out.println("**************");
 
         //***IQ: How to print ALL the values of 2 dimensional array?
-        // Ans: We use TWO for loops, inner loop and outer loop. One loop is for Row and the 2nd loop is for the Column!
+        // Ans: We use TWO for loops, inner for loop and outer out loop. One loop is for Row and the 2nd loop is for the Column!
 
 
         for(int row=0;row<x.length;row++){  //"Outer for loop" for Row

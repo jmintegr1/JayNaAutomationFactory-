@@ -8,7 +8,7 @@ public class IncrementAndDecerementOperator {
         //--
 
         int i = 1;
-        int j = i++;  //Post increment -- Give the value of I to J as is, since it is 1 so j does not go up. Then by increment it increases the value of i by 1 so now i = 2
+        int j = i++;  //Post increment -- Give the value of I to J as is, since it is 1 so j does not go up. Then increment by it increases the value of i by 1 so now i = 2
 
         System.out.println(i);
         System.out.println(j);     //So when the letter is first followed by i++ is Post increment. When the letter is behind ++i then it's pre increment

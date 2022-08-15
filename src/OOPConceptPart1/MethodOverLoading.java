@@ -11,11 +11,11 @@ public class MethodOverLoading {
         obj.sum(10, 5);
     }
 
-    public static void main(int p){ //We can overload MAIN Method name as long as there are DIFFERENT input parameters
+    public static void main(int p){ //We can overload MAIN Method name as long as there are DIFFERENT input parameters/signatures
 
     }
 
-    public static void main(int p, int h) { //We can over load MAIN w/ 2 input parameters, one identical and one has to be different
+    public static void main(int p, int h) { //We can over load MAIN w/ 2 input parameters, one identical as above and one has to be different
 
     }
 
@@ -39,8 +39,8 @@ public class MethodOverLoading {
         System.out.println(k + m);
     }
 }
-//Method overloading --> When method name is SAME but with different "arguments or input" parameters within the SAME CLASS.
+//Method overloading --> When method name is SAME but with different "arguments/signatures or input" parameters within the SAME CLASS.
 //And we CANNOT create method inside a method
-//Duplicate methods are not allowed -- same method name with same number of arguments are NOT allowed,  methods are independent of each other
+//Duplicate methods are NOT allowed -- same method name with same number of arguments are NOT allowed,  methods are independent of each other
 //We can overload MAIN METHOD as well
 

@@ -14,10 +14,8 @@ public class ArrayConcept {
         //Upper bound/index = n-1 (n is the size of array)
         //THESE ARE ALL ONE DIMENSIONAL ARRAY
 
-        //1st Dis-advantages of Array: Size is fixed -- Static array -- To overcome this  issue, we use Collections -- ArrayList, HashTable -- we use Dynamic Array
-        //2nd disadvantages of Array: stores only similar data type -- To overcome this problem, we use Object Array.
-
-
+        //1st Dis-advantages of Array: Size is fixed -- Static array -- To overcome this  issue, we use Collections -- ArrayList, HashTable, basically we use Dynamic Array
+        //2nd disadvantages of Array: stores only SIMILAR data type -- To overcome this problem, we use Object Array.
 
         //Advantages of Array: I can store Multiple values in a single variable with SIMILAR data type
 
@@ -37,7 +35,7 @@ public class ArrayConcept {
         //System.out.println(k[4]);  //Array 4 will not work and get the message below
        // *IQ: What happens when the array size/location does not exist and you try to run it? Ans: we get: ArrayIndexOutOfBoundsException
 
-        System.out.println(k.length); //This will give you the total "size" of array (We use .legnth to get size in Array. | In Hash table and HashMap I think IT IS .size)
+        System.out.println(k.length); //This will give you the total "size" of array (We use .legnth to get size in Array. | In ArrayList, Hash table and HashMap I think IT IS .size()
 
         System.out.println("***************");
 
@@ -50,7 +48,7 @@ public class ArrayConcept {
         System.out.println("***************");
 
         for(int q=0; q<k.length; q++){
-            System.out.println(k[q]);  //Array object instance variable goes inside the []
+            System.out.println(k[q]);//Array object instance variable goes inside the print line statement parameter and pass in the index of..
         }
 
         System.out.println("***************");
@@ -81,7 +79,7 @@ public class ArrayConcept {
 
            //3. How to declare character array?
 
-        char c[] = new char[3]; //Just use char when instantiating the array then
+        char c[] = new char[3]; //Just use char when instantiating the array then []
         c[0] = 'q';
         c[1] = 2;
         c[2] = '$';
@@ -92,6 +90,7 @@ public class ArrayConcept {
         char p[] = new char[4];
 
         System.out.println(p[3]);
+
 
         double v[] = new double[7];
 
@@ -118,19 +117,20 @@ public class ArrayConcept {
         System.out.println(s[03]);
 
 
-        System.out.println(s.length);
+        System.out.println(s.length);  // .length() is for static array
         System.out.println(s[1]);
         System.out.println(s[2]);
         System.out.println(s[3]);
 
 
-        // 6. Object Array: (Object is a Super Class) -- Is used to store DIFFERENT data types values, to compensate for regular Array's limitation
+        // 6. Object Array: (Object is a Super Class) -- Is used to store DIFFERENT Data Types values, to compensate for regular Array's
+        // limitation
 
         Object z[] = new Object[2];
 
         z[0] = "Jay";
         z[01] = "Mehedi";
-        //ab[2] = "Mohammed"; //Can't input more than 2 and instance variable has to be the same or get same AIOOBDE message
+        //ab[2] = "Mohammed"; //Can't input more than 2 and instance variable has to be the same or get same AIOOBDE
 
         System.out.println(z[0]);
         System.out.println(z[1]);
@@ -149,7 +149,7 @@ public class ArrayConcept {
 
 
 
-        System.out.println(ob.length); //In array we use .length() to get size   | In Collections we use .size() to get size
+        System.out.println(ob.length); //In array we use .length() to get total tally   | In Collections we use .size() to get total tally
 
         Object cd[] = new Object[9];
         cd[0] = "Sun";

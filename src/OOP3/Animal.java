@@ -1,14 +1,16 @@
-package OOP3;     //When you start a project FIRST DRAW OUT A DETAIL DIAGRAM (THE PLAN) THEN START YOUR CODING ACCORDINGLY. THIS IS BEST PRACTICE!!!
+package OOP3;
 
-public abstract class Animal {
+//When you start a project FIRST DRAW OUT A DETAIL DIAGRAM (THE PLAN) THEN START YOUR CODING ACCORDINGLY. THIS IS BEST PRACTICE!!!
 
-    public void eat(){ //Moment you write final, then child class (dog) cannot override this method
+public abstract class Animal {  //Use keyword "abstract" to make the class abstract
 
-        System.out.println("Animal -- eat duck");   //Defined method is called NON-Abastract method
+    public void eat(){ //The moment you write final front of eat() method, then child class' (dog class) cannot override this method
+
+        System.out.println("Animal -- eat duck");   //Defined method is called NON-Abstract method
     }
 
-    public final void shit(){ //Abstract class can have final method as well
-
+    public void poop(){ //Abstract class can be final method as well. If I delete keyword final then error will not show but will show
+        //in Dog class, vice versa.
     }
 
 }
@@ -18,4 +20,5 @@ public abstract class Animal {
 
     //Interface means 100% Abstraction. Abstraction -- is the process of HIDING the implementation details
 
-    //IQ: WHEN TO USE ABSTRACT CLASS AND WHEN TO USE INTERFACE?    Ans: When we want faster performance, we use abstract class.
+    //IQ: WHEN TO USE ABSTRACT CLASS AND WHEN TO USE INTERFACE?
+  //Ans: When we want faster performance, we use abstract class.

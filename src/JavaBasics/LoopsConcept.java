@@ -8,7 +8,7 @@ public class LoopsConcept {
         //What is the Disadvantage of while loop? Ans: it will generate infinite amount of loop if we don't set incremental/decremental limit
         //Print 1 to 10 using While loop
 
-        int i = 1; //Initialization     |    Can you print 1 to 10?
+        int i = 1; //Initialization, giving I a value of 1     |    Can you print 1 to 10?
         while (i <= 10) {  //Conditional is TRUE so run the loop again by increment/decrement until condition is false (so it will WHILE condition it's true)
             System.out.println(i);
             i = i + 1; //Incremental or Decremental
@@ -17,11 +17,12 @@ public class LoopsConcept {
 
         System.out.println("****************");
 
+        // Can you print 1 to 7?
 
         int o = 1;
         while (o <=7){
             System.out.println(o);
-            o++;
+            o++;  // o = o + 1 both works
         }
 
 
@@ -47,7 +48,6 @@ public class LoopsConcept {
 
         for (int j = 1; j <= 10; j++) { //Initialization, conditional, & incremental part
             System.out.println(j);
-
         }
 
         System.out.println("*****************");
@@ -61,7 +61,7 @@ public class LoopsConcept {
         System.out.println("*******************");
 
 
-        //print 10 to 1 using for loop  (Now going down so think opposite logic from above with same syntax
+        //print from 10 to 1 using for loop  (Now going down so think opposite logic from above with same syntax
 
         // k-- means k = k-1
         //Can you print from 8 to 1? = 8 7 6 5 4 3 2 1

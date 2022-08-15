@@ -50,30 +50,35 @@ public class HashMapConcept {
         hm.put(1, "Selenium");
         hm.put(2, "QTP");
         hm.put(3, "TestComplete");
-        //hm.put(4, "RFT");  //If we comment out RFT and print we'll get Null ONLY..   give: NullPointerException
+        //hm.put(4, "RFT");  //If we comment out RFT and print by line 59, we'll get Null ONLY..   give: NullPointerException
 
 
         System.out.println(hm.get(1));   //If we want to fetch the values we use: Entry set & Entry Concept
         System.out.println(hm.get(2));
         System.out.println(hm.get(3));
-        System.out.println(hm.get(4));   //4 will give you NULL without hm.put(4, "RFT") above so  if commented in out above then run it, it will NOT give: NullPointerException because HashMap does NOT store the values on the basis of INDEXES
+        System.out.println(hm.get(4));  //4 will give you NULL without hm.put(4, "RFT") above so  if commented out above then run it,
+                                      // it will throw give: NullPointerException because HashMap does NOT store the values on the basis of INDEXES
+                                    // so instead of ArrayOutOfBoundException which is thrown in ArryList
+
+        System.out.println("Hash code for HashMap object hm = " + hm.hashCode());
+
+        System.out.println("1************");
 
 
-        System.out.println("************");
+        //IQ: How to iterate HashMap? Ans: If we want to print all the values of HashMap, we use for loop with Map.Entry interface (Short literate answer)
 
-
-        //How to iterate HashMap?
-        //With the help of for loop, We use Map.Entry interface & give it a reference variable then colon, then HashMap instance variable so hm.entrySet() method  will store the complete values from this HashMap & iterate 1 by 1
-        for (Map.Entry m : hm.entrySet()) {  //If we want to print all the values of HashMap, we use for loop with Map.Entry interface (Short literate answer)
+        //Describing code: With the help of for loop and Map.Entry interface. & give it a reference variable then colon, then HashMap instance variable to call hm.entrySet() method, will store the complete values from this HashMap & iterate 1 by 1
+        for (Map.Entry m : hm.entrySet()) {
             System.out.println(m.getKey() + " " + m.getValue());
         }
 
         System.out.println(hm); //Here it gives you all the KEYS from above in parallel fashion inside {}, before remove method
 
-        hm.remove(2);   //After Remove method
-        System.out.println(hm); //Print will show QTP missing here but the number organizing structure remains the same, it will NOT self reorganize its self to shift the KEY up to 2
+        hm.remove(2);   //After Removing key 2 using the remove() method
+        System.out.println(hm); //Print will show QTP missing here but the number organizing structure remains the same, it will NOT self
+        //reorganize its self to shift the KEY up to 2
 
-        System.out.println("************");
+        System.out.println("2************");
 
 
         //Here we'll store all of Employee class references  with Java HashMap
@@ -81,7 +86,6 @@ public class HashMapConcept {
         //Step 1: Start HashMap object
         HashMap<Integer, Employee> emp = new HashMap<Integer, Employee>();
         //<Integer = Employee 1, Employee = Employee Information (name, age, dept)>
-
 
         //Step 2: Create multiple employees by creating Employee class object
 
@@ -103,7 +107,6 @@ public class HashMapConcept {
             Employee e = m.getValue(); //Start w/ m.getValue() represents all 3 above Employees' & their values which will be stored in Employee reference e on the other side of =
             System.out.println("Employees " + key + " Info: ");                                                                           //and e points to all three objects
                       //start w/ key append it + string Info
-
             //e points to all three objects and call their variables & print them
             System.out.println(e.name + " " + e.age + " " + e.dept);
 

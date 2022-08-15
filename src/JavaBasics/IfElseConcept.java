@@ -4,7 +4,7 @@ public class IfElseConcept {
 
     public static void main(String[] args) {
 
-        int a = 30;
+        int a = 30;  //Change a to 50 then program will kick it down to Else statement
         int b = 40;
 
         if (b > a) {
@@ -19,7 +19,7 @@ public class IfElseConcept {
 
         System.out.println("*******************");
 
-        int c = 40;
+        int c = 40;  //If I make c = 50 then program will kick it Else statement
         int d = 50;
 
         if (c == d) {  // = just 1 equal is an Assignment operator, ==  2 equals is Comparision Operator

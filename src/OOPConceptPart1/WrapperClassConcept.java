@@ -10,12 +10,12 @@ public class WrapperClassConcept {
 
         //This is called "Data Conversion" : String convert to Int:
 
-        int i = Integer.parseInt(x); //Parseint() method parses int into integer, so this X will be converted into integer. Since x = string 100 it will be converted to int 100
-        System.out.println(i+20); //Above code turn x = 100 into i then in the print line statement the two can added because now it is int so = 123
+        int i = Integer.parseInt(x); //Parseint() method parses into integer, so this X will be converted into integer. Since x = string 100 it will be converted to int 100
+        System.out.println(i+20); //Above code turn x = 100 into i then in the PLS the two can be added because now both are int so = 120
 
         //Wrapper Classes are: Integer, Double, Character, Boolean  (IDCB)
 
-        //Now String to Double conversion:
+        //Now String conversion to Double :
         String y = "12.33";
         double d = Double.parseDouble(y);
         System.out.println(d+10);
@@ -37,8 +37,15 @@ public class WrapperClassConcept {
         //Now it is = 20020
 
 
-        String u = "100A"; //**IQ: If you want to convert string into inger and the String is NOT pure by itself or integer is not pure numerical value then what will you get?
-        Integer.parseInt(u); //Ans: You will get NumberFormatException (when it's hybrid and not pure in either one)
+        String t = "100"; //This is pure int converted to string
+        System.out.println(t);
+
+         //Below code will throw an exception as it should
+        String u = "100A";
+        //Integer.parseInt(u); //Comment in this code and you'll see NumberFormatException
+        //**IQ: If you want to convert string into inger and the String is NOT pure by itself or integer is not pure numerical value then what
+        // will you get?
+        // Ans: You will get NumberFormatException (when it's combination of and not either int or string)
 
 
     }

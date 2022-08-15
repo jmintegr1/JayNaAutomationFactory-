@@ -11,7 +11,7 @@ public interface RBI {
 }
 
 //Interface has NO method body, only method Declaration, only method prototype (just guideline)
-//Cannot create the object of an interface
-//No static methods BUT interface Variables are static in NATURE by default
+//You cannot create the object of an interface
+//No static Methods BUT interface Variables are static in NATURE, by default
 
 

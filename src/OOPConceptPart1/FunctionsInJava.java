@@ -2,13 +2,14 @@ package OOPConceptPart1;
 
 public class FunctionsInJava {
 
-    //Main Method is the starting point of execution
-    //Method and Function are used interchangeably              //**IQ: Why main method is void?
-    public static void main(String[] args) {    //Ans: Main method is void because it never returns a value, We NEVER write a return statement inside main
+    //*****Main Method is the starting point of execution
+    //Method and Function are used interchangeably
+                                                 // **IQ: Why main method is void?
+    public static void main(String[] args) {    //Ans: Main method is void because it NEVER returns a value, We NEVER write a RETURN STATEMENT inside main()
 
         FunctionsInJava obj = new FunctionsInJava(); //If I don't instantiate this object than I cannot call the 4 methods below, they are useless without it
 
-//        Always remember new FunctionsInJava is the OBJECT, on the other side of = obj, is the REFERENCE VARIABLE
+//        Always remember new FunctionsInJava is the OBJECT, on the other side of eqaul = obj, is the REFERENCE VARIABLE
 //
 //        One object will be created, obj is the reference variable, referring to this object
 //
@@ -21,10 +22,10 @@ public class FunctionsInJava {
 
         obj.testRun();
 
-        int l = obj.PQR();  //PQR method below is executed it will come up here and called by obj.PQR = 30 will be given to l
+        int l = obj.PQR(); //PQR method below is executed it will come up here and called by obj.PQR = 30 will be given to l as line 38 testRun() method  is executed
         System.out.println(l); //Now l = 30
 
-        String s1 = obj.QA(); //String QA() method below is executed it will come up here and called by obj.QA = Selenium which will be given to s1
+        String s1 = obj.QA(); //String QA() method below, line 55 is executed it will come up here and called by obj.QA = Selenium which will be given to s1
         System.out.println(s1);
 
         int TrueBlue = obj.division(30, 10); //The instance variable can be a word or anything     | Executed just like above
@@ -33,13 +34,12 @@ public class FunctionsInJava {
     }
 
     //Non-static methods
-    //Return type = void (Void -- does not return any value)
+    //Return type = void (Void = means does not return any value)
     public void testRun() { //no input in parameter, no output
-
         System.out.println("test method");
     }
 
-    //return type = int, if put void it will not work as there is conflict as we want result in return keyword below
+    //return type = int, if put void it will not work as there is conflict as we want result here so use return keyword below
     public int PQR() {  //Or JoeShomo(), give it any name you want   |   No input in parameter but some output
         System.out.println("PQR method");
 
@@ -51,21 +51,19 @@ public class FunctionsInJava {
 
     }
 
-     //If put void here there is conflict as we want return of s which is String
+     //If you put void here there is conflict as we want return of s which is String
     public String QA(){ //no input in parameter but some output
         System.out.println("qa method");
         String s1 = "Selenium";
-
         return s1;
     }
 
     //return type is int
     //Here we are using x & y in as input parameters/arguments
-    public int division(int x, int y) {   //You can only have int as return type as it gives you result of integer in return d
+    public int division(int x, int y) {  //You can only have int as return type as it gives you result of integer in return d
         System.out.println("division method");
         int d = x / y;
 
         return d;
-
     }
 }
